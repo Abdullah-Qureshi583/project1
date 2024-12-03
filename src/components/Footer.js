@@ -6,20 +6,20 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <footer
-      className="space-y-36 relative px-16 py-12 
+      className="space-y-36 relative pb-[68px] pt-[145px] 
       
       
     
     "
     >
       {/* upper footer */}
-      <div className="flex flex-col gap-y-2 items-center">
-        <h2 className="text-[57.49px] font-[700]">
+      <div className="flex pt-[85px] flex-col  items-center">
+        <h2 className="text-[57.49px] text-white font-[700]">
           Checkout automation,{" "}
-          <span className="text-green-400">simplified</span>.
+          <span className="text-darkgreen">simplified</span>.
         </h2>
 
-        <button className="text-[19.56px] bg-[#fff]/10 w-[211px] h-[60px] text-white rounded-md hover:bg-[#fff]/20 transition-all duration-100">
+        <button className="text-[19.56px] mt-[51px] bg-[#fff]/10 w-[211px] h-[60px] text-white rounded-md hover:bg-[#fff]/20 transition-all duration-100">
           Purchase
         </button>
       </div>
@@ -34,13 +34,13 @@ export default function Footer() {
         <div className=" flex gap-x-8">
           <Link
             href="/#"
-            className="text-[18.5px] text-[#fff]/30 hover:text-[#fff]/50 font-[700] leading-[22.39px]"
+            className="text-[18.5px] text-darkgray hover:text-lightgray font-[700] leading-[22.39px]"
           >
             Terms of Service
           </Link>
           <Link
             href="/#"
-            className="text-[18.5px] text-[#fff]/30 hover:text-[#fff]/50 font-[700] leading-[22.39px]"
+            className="text-[18.5px] text-darkgray hover:text-lightgray font-[700] leading-[22.39px]"
           >
             Privacy Policy
           </Link>

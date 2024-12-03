@@ -2,32 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
-/* :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+:root {
+  --color-darkgreen: #5bbe82; /* Default Dark Green */
+  --color-lightgreen: #58C182; /* Default Light Green */
+  --color-white: #FFFFFF;
+  --color-lightgray: #E5E7EB;
+  --color-darkgray: #FFFFFF87;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+/* Define a theme for "blue" */
+[data-theme="blue"] {
+  --color-darkgreen: #00008b; /* Dark Blue */
+  --color-lightgreen: #0000ff; /* Light Blue */
+  --color-white: #f0f8ff;
+  --color-lightgray: #dcdcdc;
+  --color-darkgray: #b0c4de;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+/* Define a theme for "red" */
+[data-theme="red"] {
+  --color-darkgreen: #8b0000; /* Dark Red */
+  --color-lightgreen: #ff4500; /* Light Red */
+  --color-white: #ffe4e1;
+  --color-lightgray: #ffcccb;
+  --color-darkgray: #ff9999;
 }
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-} */
