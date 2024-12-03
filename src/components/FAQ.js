@@ -1,4 +1,3 @@
-
 "use client";
 import { useState } from "react";
 import { FaChevronDown } from "react-icons/fa";
@@ -34,7 +33,7 @@ export default function FAQ() {
   ];
 
   return (
-    <section className="pt-[265.94px] pl-[28px] pr-[6px] ">
+    <section className="pt-[265.94px] md:pl-[28px] pr-[6px] ">
       {/* header */}
       <div className="">
         <h2 className=" font-spaceGrotesk text-[31.24px] text-white font-[700] leading-[39.86px]">

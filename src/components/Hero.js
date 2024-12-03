@@ -3,20 +3,20 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
-import LeftSection from "./featureSections/LeftSection";
+import LeftSection from "./LeftSection";
 
 const Hero = () => {
   const [activeTab, setActiveTab] = useState("green");
   return (
     <div className=" relative w-full pt-[226px] ">
       {/* 2 sections grid */}
-      <div className="grid w-full  grid-cols-1 space-y-4 px-4 xl:px-0 md:grid-cols-2">
+      <div className="grid w-full  grid-cols-1 space-y-4  xl:px-0 md:grid-cols-2">
         {/* left section */}
         <LeftSection activeTab={activeTab} setActiveTab={setActiveTab} />
 
         {/* right section */}
         <div className="flex items-center">
-          <div className="h-[273px] md:h-[313px] lg:h-[353px] xl:h-[373px]  w-full  flex justify-center items-center">
+          <div className="h-[273px] md:h-[260px] lg:h-[353px] xl:h-[373px]  w-full  flex justify-center items-center">
             {/* image or video here */}
             {activeTab == "blue" ? (
               <img

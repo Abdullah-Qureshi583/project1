@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import ThemeTabs from "../ThemeTabs";
+import ThemeTabs from "./ThemeTabs";
 
 const LeftSection = ({activeTab, setActiveTab}) => {
  
@@ -13,7 +13,7 @@ const LeftSection = ({activeTab, setActiveTab}) => {
       {/* text */}
       
       <div className="mt-[41.48px]  md:w-[310px] xl:w-[459px] ">
-        <h1 className=" text-white font-[600] leading-[69.92px] text-[41px] md:text-[51px] xl:text-[61.18px]">
+        <h1 className=" text-white font-[600] leading-[69.92px] text-[38px] md:text-[51px] xl:text-[61.18px]">
           Chechout animation,{" "}
           <span className="text-darkgreen ">{activeTab == "green" ? "GreenColor" : activeTab ==="blue"? "BlueColor" : "RedColor"}</span>{" "}
         </h1>

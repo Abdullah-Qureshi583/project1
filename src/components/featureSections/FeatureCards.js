@@ -25,12 +25,12 @@ const FeatureCards = () => {
 
 
   return (
-    <div className=" pt-[211px] flex  flex-col md:flex-row justify-between  gap-8">
+    <div className=" pt-[211px] flex flex-col md:flex-row  items-center justify-center md:justify-between  gap-8">
       {/* card */}
       {cards?.map((card) => (
         <div
           key={card.title}
-          className=" bg-[#111216] p-[30px] md:p-[16px] xl:p-[30px] pb-[44px] w-[374px]  rounded-xl flex flex-col gap-y-5"
+          className=" bg-[#111216]  max-w-[302px] xl:max-w-full p-[20px] md:p-[16px] xl:p-[30px] pb-[44px] w-[374px]  rounded-xl flex flex-col gap-y-5"
         >
           {card.icon}
           <h4 className="text-[22.44px] md:text-[17px] xl:text-[22.44px] font-[700] text-white  leading-[29.92px] ">

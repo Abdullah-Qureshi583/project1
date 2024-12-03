@@ -9,7 +9,7 @@ export default function Footer() {
     >
       {/* upper footer */}
       <div className="flex pt-[85px]  flex-col  items-center">
-        <h2 className="font-sora   text-[44.76px] md:text-[28.76px] xl:text-[52.76px] text-white font-[700]">
+        <h2 className="font-sora   text-[24.76px] md:text-[28.76px] xl:text-[52.76px] text-white font-[700]">
           Checkout automation,{" "}
           <span className="text-darkgreen">simplified</span>.
         </h2>
@@ -26,16 +26,16 @@ export default function Footer() {
           <Image src="/logo.png" width={41.21} height={38} alt="Logo" />
         </Link>
         {/* buttons */}
-        <div className=" flex gap-x-8">
+        <div className=" flex gap-x-4 md:gap-x-8">
           <Link
             href="/#"
-            className="text-[18.5px] text-darkgray hover:text-lightgray font-[700] leading-[22.39px]"
+            className=" text-[12px] mdl:text-[18.5px] text-darkgray hover:text-lightgray font-[700] leading-[22.39px]"
           >
             Terms of Service
           </Link>
           <Link
             href="/#"
-            className="text-[18.5px] text-darkgray hover:text-lightgray font-[700] leading-[22.39px]"
+            className=" text-[12px] mdl:text-[18.5px] text-darkgray hover:text-lightgray font-[700] leading-[22.39px]"
           >
             Privacy Policy
           </Link>

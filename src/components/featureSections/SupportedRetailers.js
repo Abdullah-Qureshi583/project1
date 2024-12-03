@@ -1,40 +1,34 @@
 import React from "react";
 import FeatureDollarBags from "./FeatureDollarBags";
-
+import AmazingFeaures from "./AmazingFeaures";
 
 const SupportedRetailers = () => {
-
   return (
-    <div className="flex pt-[211px] max-w-[1101px] pl-[44px] flex-col md:flex-row md:justify-between items-center   gap-8">
+    <div className="flex pt-[211px] max-w-[1101px] xl:pl-[44px] flex-col md:flex-row md:justify-between items-center   gap-8">
       {/* text */}
-      <div className="flex  flex-col gap-y-2">
-        <p className="font-poppins text-darkgray xl:text-end font-semibold leading-[23.21px] tracking-tighter text-[20.89px] md:text-[17.89px] xl:text-[20.89px]">
-          AMAZING FEATURES
-        </p>
-        <h2 className="font-poppins text-[58.08px]  md:text-[53.76px] xl:text-[58.76px] text-darkgreen leading-[64.53px] font-semibold">
-          Supported <span className="text-white"> Retailers</span>
-        </h2>
-        <p className="text-lightgray xl:text-end text-[19.25px] md:text-[16.25px] xl:text-[19.25px] leading-[30.81px]">
-          We Support all SNKRS regions{" "}
-          <span className="text-darkgreen">around the globe!</span>
-        </p>
-      </div>
+      <AmazingFeaures
+        textEnd={true}
+        whiteTitle="Supported"
+        greenTitle="Retailers"
+        grayDescription="We support all SNKRS regions"
+        greenDescription="around the globe!"
+      />
       {/* icons */}
-      <div className="flex  gap-x-10">
+      <div className="flex gap-x-5  md:gap-x-7 xl:gap-x-10">
         {/* first col */}
-        <div className="flex flex-col gap-10 justify-center">
+        <div className="flex flex-col gap-5 md:gap-7 xl:gap-10 justify-center">
           {/* card */}
           {/* {console.log("in the supported retailors", ) } */}
           {<FeatureDollarBags />}
           {<FeatureDollarBags />}
         </div>
-        <div className="flex flex-col gap-10 justify-center">
+        <div className="flex flex-col gap-5 md:gap-7 xl:gap-10  justify-center">
           {/* card */}
           {<FeatureDollarBags />}
           {<FeatureDollarBags />}
           {<FeatureDollarBags />}
         </div>
-        <div className="flex flex-col gap-10 justify-center">
+        <div className="flex flex-col gap-5 md:gap-7 xl:gap-10  justify-center">
           {/* card */}
           {<FeatureDollarBags />}
           {<FeatureDollarBags />}

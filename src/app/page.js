@@ -9,9 +9,9 @@ const Home = () => {
   return (
     <div className="min-h-screen text-white w-full bg-black  ">
       
-      {/* <Hero /> */}
-      {/* <Features /> */}
-      {/* <FAQ /> */}
+      <Hero />
+      <Features />
+      <FAQ />
       <Footer />
     </div>
   );

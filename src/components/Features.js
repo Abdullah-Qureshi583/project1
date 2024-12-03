@@ -7,6 +7,7 @@ import { CiGlobe } from "react-icons/ci";
 import React from "react";
 import FeatureCards from "./featureSections/FeatureCards";
 import SupportedRetailers from "./featureSections/SupportedRetailers";
+import AmazingFeaures from "./featureSections/AmazingFeaures";
 
 const Features = () => {
   return (
@@ -57,9 +58,9 @@ const Features = () => {
             />
             {/* middle lines*/}
             <div className="flex flex-col gap-y-2">
-                <span className="md:w-[94.77px] xl:w-[124.77px] h-[10.69px] bg-[#4E5A85]/20 rounded-[44.56px]"></span>
-                <span className="md:w-[62.69px] xl:w-[92.69px] h-[10.69px] bg-[#4E5A85]/20 rounded-[44.56px]"></span>
-              </div>
+              <span className="md:w-[94.77px] xl:w-[124.77px] h-[10.69px] bg-[#4E5A85]/20 rounded-[44.56px]"></span>
+              <span className="md:w-[62.69px] xl:w-[92.69px] h-[10.69px] bg-[#4E5A85]/20 rounded-[44.56px]"></span>
+            </div>
 
             {/* end */}
 
@@ -70,18 +71,12 @@ const Features = () => {
         </div>
 
         {/* 2nd section */}
-        <div className="flex  pl-3 flex-col ">
-          <p className="font-poppins text-darkgray font-semibold leading-[23.21px] text-[20.89px] md:text-[17.89px] xl:text-[20.89px]">
-            AMAZING FEATURES
-          </p>
-          <h3 className="text-[52.76px] md:text-[48.76px] xl:text-[52.76px] font-poppins tracking-tight leading-[58.62px] font-semibold text-darkgreen">
-            Worldwide <span className="text-white">Support</span>
-          </h3>
-          <p className="text-lightgray  text-[19.25px] md:text-[16.25px] xl:text-[19.25px] leading-[30.81px]">
-            We Support all SNKRS regions{" "}
-            <span className="text-darkgreen">around the globe!</span>
-          </p>
-        </div>
+        <AmazingFeaures
+          whiteTitle="Worldwide"
+          greenTitle="Support"
+          grayDescription="We support all SNKRS regions"
+          greenDescription="around the globe!"
+        />
       </div>
 
       {/* features card */}
