@@ -37,7 +37,7 @@ export default function FAQ() {
     <section className="pt-[265.94px] pl-[28px] pr-[6px] ">
       {/* header */}
       <div className="">
-        <h2 className="text-[31.24px] text-white font-[700] leading-[39.86px]">
+        <h2 className=" font-spaceGrotesk text-[31.24px] text-white font-[700] leading-[39.86px]">
           Frequently Asked <span className="text-darkgreen">Questions</span>{" "}
         </h2>
         <div className="h-1 w-[50px] bg-lightgreen mt-[28px] "></div>

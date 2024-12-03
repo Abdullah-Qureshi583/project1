@@ -30,13 +30,13 @@ const FeatureCards = () => {
       {cards?.map((card) => (
         <div
           key={card.title}
-          className=" bg-[#111216] p-[30px] pb-[44px] w-[374px]  rounded-xl flex flex-col gap-y-5"
+          className=" bg-[#111216] p-[30px] md:p-[16px] xl:p-[30px] pb-[44px] w-[374px]  rounded-xl flex flex-col gap-y-5"
         >
           {card.icon}
-          <h4 className="text-[22.44px] font-[700] text-white  leading-[29.92px] ">
+          <h4 className="text-[22.44px] md:text-[17px] xl:text-[22.44px] font-[700] text-white  leading-[29.92px] ">
             {card.title}
           </h4>
-          <p className="text-darkgray text-[14px]">{card.desc}</p>
+          <p className="text-darkgray text-[14px] md:text-[11px] xl:text-[14px]">{card.desc}</p>
         </div>
       ))}
     </div>

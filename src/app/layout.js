@@ -13,8 +13,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${inter.className} bg-black  h-screen`}>
-        <div className="max-w-[1212px] relative mx-auto">
-          <Navbar />
+        <div className="max-w-[1212px] px-4 xl:px-0 relative mx-auto">
+          {/* <Navbar /> */}
 
           {children}
         </div>

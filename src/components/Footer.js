@@ -1,20 +1,15 @@
 import Image from "next/image";
 import Link from "next/link";
 
-
 // bg-gradient-to-t from-green-700 from-5%    via-black  to-black
 export default function Footer() {
   return (
     <footer
-      className="space-y-36 relative pb-[68px] pt-[145px] 
-      
-      
-    
-    "
+      className="space-y-36 relative pb-[68px] pt-[145px] "
     >
       {/* upper footer */}
-      <div className="flex pt-[85px] flex-col  items-center">
-        <h2 className="text-[57.49px] text-white font-[700]">
+      <div className="flex pt-[85px]  flex-col  items-center">
+        <h2 className="font-sora   text-[44.76px] md:text-[28.76px] xl:text-[52.76px] text-white font-[700]">
           Checkout automation,{" "}
           <span className="text-darkgreen">simplified</span>.
         </h2>

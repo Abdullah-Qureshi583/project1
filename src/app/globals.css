@@ -2,6 +2,41 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@font-face {
+  font-family: 'SpaceGrotesk';
+  src: url('/fonts/SpaceGrotesk-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+
+  font-family: 'Poppins';
+  src: url('/fonts/Poppins-SemiBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+
+  font-family: 'Sora';
+  src: url('/fonts/Sora-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.font-sora {
+  font-family: 'Sora', sans-serif;
+}
+.font-spaceGrotesk {
+  font-family: 'SpaceGrotesk', sans-serif;
+}
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
 :root {
   --color-darkgreen: #5bbe82; /* Default Dark Green */
   --color-lightgreen: #58C182; /* Default Light Green */

@@ -10,13 +10,13 @@ const Hero = () => {
   return (
     <div className=" relative w-full pt-[226px] ">
       {/* 2 sections grid */}
-      <div className="grid w-full   md:grid-cols-2">
+      <div className="grid w-full  grid-cols-1 space-y-4 px-4 xl:px-0 md:grid-cols-2">
         {/* left section */}
         <LeftSection activeTab={activeTab} setActiveTab={setActiveTab} />
 
         {/* right section */}
         <div className="flex items-center">
-          <div className=" h-[373px] w-full  flex justify-center items-center">
+          <div className="h-[273px] md:h-[313px] lg:h-[353px] xl:h-[373px]  w-full  flex justify-center items-center">
             {/* image or video here */}
             {activeTab == "blue" ? (
               <img
