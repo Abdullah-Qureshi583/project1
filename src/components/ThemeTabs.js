@@ -1,10 +1,8 @@
 import React from "react";
 
-const ThemeTabs = ({activeTab, setActiveTab}) => {
+const ThemeTabs = ({ activeTab, setActiveTab }) => {
   const toggleTheme = (color) => {
-    console.log("the color is ", color);
     document.documentElement.setAttribute("data-theme", color);
-    console.log(document.documentElement.getAttribute("data-theme"));
   };
 
   const tabs = [

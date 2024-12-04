@@ -14,9 +14,13 @@ const Hero = () => {
         {/* left section */}
         <LeftSection activeTab={activeTab} setActiveTab={setActiveTab} />
 
+
+
+
+
         {/* right section */}
         <div className="flex items-center">
-          <div className="h-[273px] md:h-[260px] lg:h-[353px] xl:h-[373px]  w-full  flex justify-center items-center">
+          <div className="h-auto xl:h-[373px]  w-full  flex justify-center items-center">
             {/* image or video here */}
             {activeTab == "blue" ? (
               <img

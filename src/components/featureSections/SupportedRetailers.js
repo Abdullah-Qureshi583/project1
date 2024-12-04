@@ -18,7 +18,6 @@ const SupportedRetailers = () => {
         {/* first col */}
         <div className="flex flex-col gap-5 md:gap-7 xl:gap-10 justify-center">
           {/* card */}
-          {/* {console.log("in the supported retailors", ) } */}
           {<FeatureDollarBags />}
           {<FeatureDollarBags />}
         </div>
